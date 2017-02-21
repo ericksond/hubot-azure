@@ -1,0 +1,38 @@
+{
+  "name": "hubot-azure",
+  "description": "Interact with Azure CLI through Hubot",
+  "version": "0.1.0",
+  "author": "Erickson Delgado <ericksond@gmail.com>",
+  "license": "MIT",
+
+  "keywords": [
+    "hubot",
+    "hubot-scripts"
+  ],
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ericksond/hubot-azure.git"
+  },
+
+  "bugs": {
+    "url": "https://github.com/ericksond/hubot-azure/issues"
+  },
+
+  "dependencies": {
+    "coffee-script": "^1.9.3"
+  },
+
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "^1.9.2",
+    "sinon-chai": "*",
+    "sinon": "*"
+  },
+
+  "main": "index.coffee",
+
+  "scripts": {
+    "test": "script/test"
+  }
+}
